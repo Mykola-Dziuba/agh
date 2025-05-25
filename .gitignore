@@ -1,0 +1,27 @@
+# Ignor llm
+models/
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Docker
+*.tar
+*.img
+.env
+
+# OS
+.DS_Store
+Thumbs.db
